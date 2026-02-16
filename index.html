@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Scarlett</title>
+    <!-- DESAFÍO PLUS: Añadir favicon aquí -->
+</head>
+<body>
+
+    <!-- ====================
+         HEADER: Tu nombre y título profesional
+         ==================== -->
+    <header>
+        <!-- COMPLETAR: Tu nombre completo -->
+        <h1>Scarlett Iozune Álvarez Bonnabel</h1>
+
+        <!-- COMPLETAR: Tu título profesional o lo que estudias -->
+        <p>Estudiante de Ingeniería de Software, Desarrollador Web Junior</p>
+    </header>
+
+    <!-- ====================
+         MAIN: Contenido principal del CV
+         ==================== -->
+    <main>
+
+        <!-- SECCIÓN: Sobre Mí -->
+        <section id="sobre-mi">
+            <h2>Soy una persona dedicada, responsable. Estudio en la Universidad de Colima en la Facultad de Telemática</h2>
+
+            <!-- COMPLETAR: Breve descripción de ti (2-4 líneas) -->
+            <p>
+                Soy una estudiante que cursa el 4to semestre de la carrera de Ingeniería de Software, me apasiona mucho la tecnología y el diseño web, actualmente no tengo trabajo en el area de tecnología pero me gustaría conseguir uno para conseguir experiencia laboral. Mi nivel de inglés es B2.
+            </p>
+
+            <!-- OPCIONAL: Segundo párrafo si necesitas más espacio -->
+            <p>
+                Me gustaría tener un trabajo con modalidad de Home Office para tener mayor flexibilidad laboral.
+            </p>
+        </section>
+
+        <!-- SECCIÓN: Experiencia / Educación -->
+        <section id="experiencia">
+            <h2>Experiencia y Educación</h2>
+
+            <!-- Usamos una lista desordenada para items -->
+            <ul>
+                <!-- COMPLETAR: Item 1 -->
+                <li>
+                    <strong>Bachillerato 1</strong> - 2024
+                    <br>
+                    Me gradué del Bachillerato 1 del área general.
+                </li>
+
+                <!-- COMPLETAR: Item 2 -->
+                <li>
+                    <strong>Certificación B1 de inglés</strong> - 2024
+                    <br>
+                    Certificado de nivel de inglés por TOEFL.
+                </li>
+
+                <!-- COMPLETAR: Item 3 (opcional) -->
+                <li>
+                    <strong>Ingeniería de software</strong> - 2024 - Acualidad
+                    <br>
+                    Actualmente estudiante de la carrera de Ingeniería de software, me voy a graduar en 2 años.
+                </li>
+            </ul>
+        </section>
+
+        <!-- SECCIÓN: Habilidades -->
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+
+            <!-- COMPLETAR: Lista de habilidades -->
+            <ul>
+                <li> Habilidad 1: Colaboración y Trabajo en equipo</li>
+                <li> Habilidad 2: Soy proactiva </li>
+                <li> Habilidad 3: Escucha activa y retroalimentacion</li>
+                <li> Habilidad 4: Adaptabilidad</li>
+            </ul>
+        </section>
+
+        <!-- SECCIÓN: Contacto (Formulario) -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+
+            <!-- 
+                FORMULARIO HTML5 CON VALIDACIÓN NATIVA
+                Nota: Esto no envía emails aún (necesita backend), 
+                pero valida que los datos sean correctos
+            -->
+            <form action="#" method="post">
+
+                <!-- Campo de Email con validación automática -->
+                <p>
+                    <label for="email">Tu Email:</label><br>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="ejemplo@correo.com"
+                        required
+                    >
+                </p>
+
+                <!-- Campo de Nombre (requerido) -->
+                <p>
+                    <label for="nombre">Tu Nombre:</label><br>
+                    <input 
+                        type="text" 
+                        id="nombre" 
+                        name="nombre" 
+                        placeholder="¿Quién eres?"
+                        required
+                        minlength="2"
+                    >
+                </p>
+
+                <!-- Campo de Mensaje -->
+                <p>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea 
+                        id="mensaje" 
+                        name="mensaje" 
+                        rows="4" 
+                        cols="50"
+                        placeholder="Escribe tu mensaje aquí..."
+                        required
+                        minlength="10"
+                    ></textarea>
+                </p>
+
+                <!-- Botón de envío -->
+                <button type="submit">Enviar Mensaje</button>
+
+            </form>
+
+            <!-- Información de contacto directo -->
+            <p>
+                <strong>Email directo:</strong>  salvarez13@ucol.mx <br>
+                <strong>Teléfono:</strong> 312 331 2939
+            </p>
+        </section>
+
+    </main>
+
+    <!-- ====================
+         FOOTER: Pie de página
+         ==================== -->
+    <footer>
+        <p>&copy; 2024 Scarlett Iozune Álvarez Bonnabel. CV creado con HTML5.</p>
+
+        <!-- OPCIONAL: Enlace a tu GitHub -->
+        <p>
+            <a href="https://github.com/[TU-USUARIO]" target="_blank">
+                Ver mi GitHub
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
